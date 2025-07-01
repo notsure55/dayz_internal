@@ -1,6 +1,0 @@
-# CMake generation dependency list for this directory.
-C:/Program Files/CMake/share/cmake-4.0/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
-C:/Program Files/CMake/share/cmake-4.0/Modules/CMakePackageConfigHelpers.cmake
-C:/Program Files/CMake/share/cmake-4.0/Modules/WriteBasicConfigVersionFile.cmake
-C:/Users/schwarztoter/Documents/projects/cs2_internal_revision/build/_deps/minhook-src/CMakeLists.txt
-C:/Users/schwarztoter/Documents/projects/cs2_internal_revision/build/_deps/minhook-src/cmake/minhook-config.cmake.in
