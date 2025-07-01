@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BD911951-FA67-3D47-90E4-DFD70E796379}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>CS2_Revision</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CS2_Revision.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">module</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CS2_Revision.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">module</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CS2_Revision.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">module</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CS2_Revision.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">module</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\sig_scanner;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities\base_entity;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities\base_weapon;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\sdl;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\menu;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\present;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\interfaces;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\Minhook;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\toggles;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\features\esp;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\math;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\_deps\glm-src;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\_deps\minhook-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug";CS2_Revision_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>true</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";CS2_Revision_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\sig_scanner;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities\base_entity;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities\base_weapon;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\sdl;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\menu;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\present;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\interfaces;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\Minhook;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\toggles;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\features\esp;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\math;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\_deps\glm-src;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\_deps\minhook-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\sig_scanner;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities\base_entity;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities\base_weapon;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\sdl;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\menu;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\present;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\interfaces;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\Minhook;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\toggles;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\features\esp;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\math;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\_deps\glm-src;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\_deps\minhook-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Psapi.lib;dxgi.lib;d3d11.lib;_deps\glm-build\glm\Debug\glm.lib;_deps\minhook-build\Debug\minhook.x64d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/schwarztoter/Documents/projects/cs2_internal_revision/build/Debug/module.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/schwarztoter/Documents/projects/cs2_internal_revision/build/Debug/module.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\sig_scanner;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities\base_entity;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities\base_weapon;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\sdl;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\menu;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\present;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\interfaces;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\Minhook;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\toggles;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\features\esp;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\math;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\_deps\glm-src;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\_deps\minhook-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";CS2_Revision_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>true</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";CS2_Revision_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\sig_scanner;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities\base_entity;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities\base_weapon;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\sdl;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\menu;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\present;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\interfaces;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\Minhook;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\toggles;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\features\esp;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\math;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\_deps\glm-src;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\_deps\minhook-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\sig_scanner;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities\base_entity;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities\base_weapon;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\sdl;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\menu;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\present;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\interfaces;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\Minhook;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\toggles;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\features\esp;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\math;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\_deps\glm-src;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\_deps\minhook-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Psapi.lib;dxgi.lib;d3d11.lib;_deps\glm-build\glm\Release\glm.lib;_deps\minhook-build\Release\minhook.x64.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/schwarztoter/Documents/projects/cs2_internal_revision/build/Release/module.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/schwarztoter/Documents/projects/cs2_internal_revision/build/Release/module.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\sig_scanner;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities\base_entity;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities\base_weapon;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\sdl;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\menu;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\present;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\interfaces;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\Minhook;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\toggles;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\features\esp;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\math;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\_deps\glm-src;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\_deps\minhook-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";CS2_Revision_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>true</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";CS2_Revision_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\sig_scanner;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities\base_entity;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities\base_weapon;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\sdl;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\menu;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\present;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\interfaces;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\Minhook;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\toggles;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\features\esp;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\math;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\_deps\glm-src;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\_deps\minhook-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\sig_scanner;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities\base_entity;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities\base_weapon;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\sdl;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\menu;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\present;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\interfaces;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\Minhook;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\toggles;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\features\esp;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\math;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\_deps\glm-src;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\_deps\minhook-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Psapi.lib;dxgi.lib;d3d11.lib;_deps\glm-build\glm\MinSizeRel\glm.lib;_deps\minhook-build\MinSizeRel\minhook.x64.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/schwarztoter/Documents/projects/cs2_internal_revision/build/MinSizeRel/module.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/schwarztoter/Documents/projects/cs2_internal_revision/build/MinSizeRel/module.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\sig_scanner;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities\base_entity;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities\base_weapon;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\sdl;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\menu;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\present;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\interfaces;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\Minhook;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\toggles;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\features\esp;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\math;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\_deps\glm-src;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\_deps\minhook-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";CS2_Revision_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>true</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";CS2_Revision_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\sig_scanner;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities\base_entity;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities\base_weapon;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\sdl;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\menu;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\present;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\interfaces;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\Minhook;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\toggles;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\features\esp;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\math;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\_deps\glm-src;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\_deps\minhook-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\sig_scanner;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities\base_entity;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities\base_weapon;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\sdl;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\menu;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\present;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\interfaces;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\Minhook;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\toggles;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\features\esp;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\math;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\_deps\glm-src;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\_deps\minhook-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Psapi.lib;dxgi.lib;d3d11.lib;_deps\glm-build\glm\RelWithDebInfo\glm.lib;_deps\minhook-build\RelWithDebInfo\minhook.x64.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/schwarztoter/Documents/projects/cs2_internal_revision/build/RelWithDebInfo/module.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/schwarztoter/Documents/projects/cs2_internal_revision/build/RelWithDebInfo/module.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/schwarztoter/Documents/projects/cs2_internal_revision/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/schwarztoter/Documents/projects/cs2_internal_revision -BC:/Users/schwarztoter/Documents/projects/cs2_internal_revision/build --check-stamp-file C:/Users/schwarztoter/Documents/projects/cs2_internal_revision/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\stepscript.cmake.in;C:\Program Files\CMake\share\cmake-4.0\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\CMakeFiles\4.0.2\CMakeCCompiler.cmake;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\CMakeFiles\4.0.2\CMakeCXXCompiler.cmake;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\CMakeFiles\4.0.2\CMakeRCCompiler.cmake;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\CMakeFiles\4.0.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/schwarztoter/Documents/projects/cs2_internal_revision/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/schwarztoter/Documents/projects/cs2_internal_revision -BC:/Users/schwarztoter/Documents/projects/cs2_internal_revision/build --check-stamp-file C:/Users/schwarztoter/Documents/projects/cs2_internal_revision/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\stepscript.cmake.in;C:\Program Files\CMake\share\cmake-4.0\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\CMakeFiles\4.0.2\CMakeCCompiler.cmake;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\CMakeFiles\4.0.2\CMakeCXXCompiler.cmake;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\CMakeFiles\4.0.2\CMakeRCCompiler.cmake;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\CMakeFiles\4.0.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/schwarztoter/Documents/projects/cs2_internal_revision/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/schwarztoter/Documents/projects/cs2_internal_revision -BC:/Users/schwarztoter/Documents/projects/cs2_internal_revision/build --check-stamp-file C:/Users/schwarztoter/Documents/projects/cs2_internal_revision/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\stepscript.cmake.in;C:\Program Files\CMake\share\cmake-4.0\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\CMakeFiles\4.0.2\CMakeCCompiler.cmake;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\CMakeFiles\4.0.2\CMakeCXXCompiler.cmake;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\CMakeFiles\4.0.2\CMakeRCCompiler.cmake;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\CMakeFiles\4.0.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/schwarztoter/Documents/projects/cs2_internal_revision/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/schwarztoter/Documents/projects/cs2_internal_revision -BC:/Users/schwarztoter/Documents/projects/cs2_internal_revision/build --check-stamp-file C:/Users/schwarztoter/Documents/projects/cs2_internal_revision/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\stepscript.cmake.in;C:\Program Files\CMake\share\cmake-4.0\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\CMakeFiles\4.0.2\CMakeCCompiler.cmake;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\CMakeFiles\4.0.2\CMakeCXXCompiler.cmake;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\CMakeFiles\4.0.2\CMakeRCCompiler.cmake;C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\CMakeFiles\4.0.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui\desktop.ini">
+    </None>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui\imconfig.h" />
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui\imgui.cpp" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui\imgui.h" />
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui\imgui_demo.cpp" />
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui\imgui_impl_dx11.cpp" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui\imgui_impl_dx11.h" />
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui\imgui_impl_win32.cpp" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui\imgui_impl_win32.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui\imgui_internal.h" />
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui\imgui_tables.cpp" />
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui\imgui_widgets.cpp" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui\imstb_rectpack.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui\imstb_textedit.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui\imstb_truetype.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\Minhook\MinHook.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_assert.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_asyncio.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_atomic.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_audio.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_begin_code.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_bits.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_blendmode.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_camera.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_clipboard.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_close_code.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_copying.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_cpuinfo.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_dialog.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_egl.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_endian.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_error.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_events.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_filesystem.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_gamepad.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_gpu.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_guid.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_haptic.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_hidapi.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_hints.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_init.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_intrin.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_iostream.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_joystick.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_keyboard.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_keycode.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_loadso.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_locale.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_log.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_main.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_main_impl.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_messagebox.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_metal.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_misc.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_mouse.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_mutex.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_oldnames.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_opengl.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_opengl_glext.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_opengles.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_opengles2.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_opengles2_gl2.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_opengles2_gl2ext.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_opengles2_gl2platform.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_opengles2_khrplatform.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_pen.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_pixels.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_platform.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_platform_defines.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_power.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_process.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_properties.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_rect.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_render.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_revision.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_scancode.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_sensor.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_stdinc.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_storage.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_surface.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_system.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_test.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_test_assert.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_test_common.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_test_compare.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_test_crc32.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_test_font.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_test_fuzzer.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_test_harness.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_test_log.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_test_md5.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_test_memory.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_thread.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_time.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_timer.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_touch.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_tray.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_version.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_video.h" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_vulkan.h" />
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\dllmain.cpp" />
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities\base_entity\base_entity.cpp" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities\base_entity\base_entity.hpp" />
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities\base_weapon\base_weapon.cpp" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities\base_weapon\base_weapon.hpp" />
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities\entities.cpp" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities\entities.hpp" />
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\features\esp\esp.cpp" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\features\esp\esp.hpp" />
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\hooks.cpp" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\hooks.hpp" />
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\menu\menu.cpp" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\menu\menu.hpp" />
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\present\present.cpp" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\present\present.hpp" />
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\sdl\sdl.cpp" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\sdl\sdl.hpp" />
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\interfaces\input_system.cpp" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\interfaces\input_system.hpp" />
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\math\math.cpp" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\math\math.hpp" />
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\sig_scanner\sig_scanner.cpp" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\sig_scanner\sig_scanner.hpp" />
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\toggles\toggles.cpp" />
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\toggles\toggles.hpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\ZERO_CHECK.vcxproj">
+      <Project>{1372E9AB-B235-394F-8CFE-272970CEFCE5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\_deps\glm-build\glm\glm.vcxproj">
+      <Project>{B29481F6-B50D-3EAD-8797-5C251F120AA7}</Project>
+      <Name>glm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\build\_deps\minhook-build\minhook.vcxproj">
+      <Project>{BC485BB6-6D8C-3049-B3E0-619CB97AFD51}</Project>
+      <Name>minhook</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

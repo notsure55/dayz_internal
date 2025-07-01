@@ -1,0 +1,13 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "CS2_Revision.dir\\Release\\imgui_widgets.obj",
+            "outputs": [
+                "CS2_Revision.dir\\Release\\"
+            ],
+            "requires": []
+        }
+    ]
+}

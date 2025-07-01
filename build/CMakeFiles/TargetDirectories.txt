@@ -1,0 +1,11 @@
+C:/Users/schwarztoter/Documents/projects/cs2_internal_revision/build/CMakeFiles/CS2_Revision.dir
+C:/Users/schwarztoter/Documents/projects/cs2_internal_revision/build/CMakeFiles/INSTALL.dir
+C:/Users/schwarztoter/Documents/projects/cs2_internal_revision/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/schwarztoter/Documents/projects/cs2_internal_revision/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/schwarztoter/Documents/projects/cs2_internal_revision/build/_deps/glm-build/CMakeFiles/INSTALL.dir
+C:/Users/schwarztoter/Documents/projects/cs2_internal_revision/build/_deps/glm-build/CMakeFiles/ALL_BUILD.dir
+C:/Users/schwarztoter/Documents/projects/cs2_internal_revision/build/_deps/glm-build/glm/CMakeFiles/glm.dir
+C:/Users/schwarztoter/Documents/projects/cs2_internal_revision/build/_deps/glm-build/glm/CMakeFiles/INSTALL.dir
+C:/Users/schwarztoter/Documents/projects/cs2_internal_revision/build/_deps/minhook-build/CMakeFiles/minhook.dir
+C:/Users/schwarztoter/Documents/projects/cs2_internal_revision/build/_deps/minhook-build/CMakeFiles/INSTALL.dir
+C:/Users/schwarztoter/Documents/projects/cs2_internal_revision/build/_deps/minhook-build/CMakeFiles/ALL_BUILD.dir

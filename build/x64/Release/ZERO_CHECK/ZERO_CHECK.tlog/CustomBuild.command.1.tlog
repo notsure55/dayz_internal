@@ -1,0 +1,10 @@
+^C:\USERS\SCHWARZTOTER\DOCUMENTS\PROJECTS\CS2_INTERNAL_REVISION\BUILD\CMAKEFILES\FC034223ECAB03685A9B744C9FF0E27F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/schwarztoter/Documents/projects/cs2_internal_revision -BC:/Users/schwarztoter/Documents/projects/cs2_internal_revision/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/schwarztoter/Documents/projects/cs2_internal_revision/build/CS2_Revision.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

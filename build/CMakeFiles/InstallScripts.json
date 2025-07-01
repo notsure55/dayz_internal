@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/schwarztoter/Documents/projects/cs2_internal_revision/build/cmake_install.cmake",
+		"C:/Users/schwarztoter/Documents/projects/cs2_internal_revision/build/_deps/glm-build/cmake_install.cmake",
+		"C:/Users/schwarztoter/Documents/projects/cs2_internal_revision/build/_deps/glm-build/glm/cmake_install.cmake",
+		"C:/Users/schwarztoter/Documents/projects/cs2_internal_revision/build/_deps/minhook-build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

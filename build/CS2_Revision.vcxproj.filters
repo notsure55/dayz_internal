@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui\imgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui\imgui_demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui\imgui_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui\imgui_impl_dx11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui\imgui_impl_win32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui\imgui_tables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui\imgui_widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities\base_entity\base_entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities\base_weapon\base_weapon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities\entities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\features\esp\esp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\hooks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\menu\menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\present\present.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\sdl\sdl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\interfaces\input_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\math\math.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\sig_scanner\sig_scanner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\toggles\toggles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui\imconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui\imgui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui\imgui_impl_dx11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui\imgui_impl_win32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui\imgui_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui\imstb_rectpack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui\imstb_textedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui\imstb_truetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\Minhook\MinHook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_assert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_asyncio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_atomic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_audio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_begin_code.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_bits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_blendmode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_clipboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_close_code.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_copying.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_cpuinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_dialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_egl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_endian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_events.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_filesystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_gamepad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_gpu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_guid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_haptic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_hidapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_hints.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_init.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_intrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_iostream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_joystick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_keyboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_keycode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_loadso.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_locale.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_main_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_messagebox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_metal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_misc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_mouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_mutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_oldnames.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_opengl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_opengl_glext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_opengles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_opengles2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_opengles2_gl2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_opengles2_gl2ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_opengles2_gl2platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_opengles2_khrplatform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_pen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_pixels.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_platform_defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_power.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_process.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_properties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_rect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_render.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_revision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_scancode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_sensor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_stdinc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_storage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_surface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_test_assert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_test_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_test_compare.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_test_crc32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_test_font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_test_fuzzer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_test_harness.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_test_log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_test_md5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_test_memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_time.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_touch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_tray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_video.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\SDL3\SDL_vulkan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities\base_entity\base_entity.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities\base_weapon\base_weapon.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\entities\entities.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\features\esp\esp.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\hooks.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\menu\menu.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\present\present.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\hooks\sdl\sdl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\interfaces\input_system.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\math\math.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\sig_scanner\sig_scanner.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\toggles\toggles.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\schwarztoter\Documents\projects\cs2_internal_revision\src\ImGui\desktop.ini" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2EE07C2F-CF78-3D52-8C87-66A669A28B8A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9739FCA7-3ECB-335E-99FF-DB27C1D5EBAD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
