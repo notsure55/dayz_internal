@@ -1,7 +1,30 @@
 #include <windows.h>
 #include <iostream>
+#include <sig_scanner.hpp>
+#include <print>
+
 void setup() {
+    Scanner::cache();
 }
+
+class ObjectClass {
+public:
+    char padding[0x10];
+    char* name;
+};
+
+class Object {
+public:
+    char padding[0x8];
+    ObjectClass* object_class;
+};
+
+class World {
+public:
+    char padding[0x24A8];
+    Object** inventory_items;
+    int inventory_item_count;
+};
 
 void cleanup(const LPVOID hModule, FILE* f) {
     // cleanup
@@ -18,7 +41,15 @@ DWORD WINAPI entry_point(const LPVOID hModule) {
 
     setup();
 
+    const auto world { *reinterpret_cast<World**>(Scanner::get("world")) };
+
     while (!GetAsyncKeyState(VK_DELETE)) {
+        for (size_t i { 0 }; i < world->inventory_item_count; ++i) {
+            std::println("*****************************");
+            if (!world->inventory_items[i]) { continue; }
+            std::println("object_name: {} | index: {}", world->inventory_items[i]->object_class->name, i);
+        }
+
         Sleep(5);
     }
 

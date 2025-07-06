@@ -36,7 +36,8 @@ set_target_properties(${PROJECT_NAME} PROPERTIES
   OUTPUT_NAME "dayz_internal"
 )
 
-target_include_directories(${PROJECT_NAME} PRIVATE	
+target_include_directories(${PROJECT_NAME} PRIVATE
+  src/sig_scanner/
 )
 
 target_link_libraries(${PROJECT_NAME} PRIVATE
